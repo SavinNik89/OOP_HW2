@@ -1,3 +1,5 @@
+package HW_2;
+
 public class Plate {
     private int food;
     public Plate(int food) {
