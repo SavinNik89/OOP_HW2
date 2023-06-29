@@ -16,6 +16,6 @@ public interface Model {
      */
     int reservationTable(Date reservationDate, int tableNo, String name);
 
-    int changeReservationTable(int oldReservation, Date orderDate, int tableNo, String name);
+    int changeReservationTable(int oldReservation, java.util.Date orderDate, int tableNo, java.lang.String name);
 }
 
